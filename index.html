@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CalcPizza</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="section" id="section1" >
+      <h1>Wybór 1</h1>
+      <h2>Średnica pizzy w cm</h2>
+      <input class="width" id ="width1" type="number"></input>
+      <h2>Całkowita cena</h2>
+      <input class="price" id ="price1"type="number"></input>
+      <h2>Ilość sztuk</h2>
+      <select class="piece" id="piece1">
+        <option value="0" disabled selected>Wybierz liczbę
+        </option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        </select>
+        <h2 class="show1 hidden"></h2>
+        <h2 class="show3 hidden"></h2>
+
+      </div>
+      
+      <div class="section" id="section2">
+        <h1>Wybór 2</h1>
+        <h2>Średnica pizzy w cm</h2>
+        <input class="width" id="width2" type="number"></input>
+        <h2>Całkowita cena</h2>
+        <input class="price" id="price2"  type="number"></input>
+        <h2>Ilość sztuk</h2>
+        <select class="piece" id= "piece2">
+          <option value="0" disabled selected>Wybierz liczbę
+          </option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          </select>
+          <h2 class="show2 hidden"></h2>
+          <h2 class="show4 hidden"></h2>
+        </div>
+        <button class="check">Sprawdź!</button>
+        <div class="results"></div>
+        <img src="pizz.png"class="img" class"img" alt="pizza">
+        </div>
+        <script src="script.js"></script>
+  </body>
+</html>
